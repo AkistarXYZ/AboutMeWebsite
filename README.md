@@ -1,4 +1,4 @@
-# AkistarX Website
+# AboutMe Website
 
 This repository contains the source code for my personal website.
 
@@ -34,4 +34,4 @@ The goal of this project was to improve my front-end development skills while cr
 
 You can view the live version of the website here:
 
-**website**
+**https://akistarxyz.github.io/AboutMeWebsite/**
