@@ -1,0 +1,119 @@
+header{
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: #293681;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+body{
+    background-color: rgb(22, 22, 36);
+}
+
+.profile{
+    background-image: url("images/profile.jpg");
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    position: fixed;
+    top: 15px;
+    left: 25px;
+    border-radius: 360px;
+}
+
+.grid{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    justify-content: center;
+    column-gap: 160px;
+    row-gap: 40px;
+    width: 100%;
+    height: calc(100vh-100px);
+}
+
+.gamePanel{
+    position: relative;
+    width: 352px;
+    height: 270px;
+    background-color: rgb(22, 22, 36);
+    border: 5px solid #293681;
+    border-radius: 20px;
+    padding-left: 20px;
+    box-shadow: 0 0 50px 8px black;
+}
+.shapys{
+    background-image: url(images/Shapys.png);
+    border-radius: 12px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.BDivers{
+    background-image: url(images/BD.png);
+    border-radius: 12px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.TFV{
+    background-image: url(images/TFV.png);
+    border-radius: 12px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.GoH{
+    background-image: url(images/GoH.png);
+    border-radius: 12px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.M51{
+    background-image: url(images/M51.png);
+    border-radius: 12px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.gameTitle{
+    color: white;
+    font-size: x-large;
+    margin-top: 225px;
+    float: left;
+    margin-left: 10px;
+}
+button.PoD{
+    border: 4px solid #293681;
+    background-color: rgb(22, 22, 36);
+    color: white;
+    font-size: x-large;
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    bottom: 10px;
+    border-radius: 12px;
+    right: 20px;
+    transition: 0.25s;
+}
+
+button.PoD:hover{
+    width: 180px;
+    height: 48px;
+    bottom: 6px;
+    right: 5px;
+}
+
+button.PoD:active{
+    background-color: #4d6cff;
+    width: 180px;
+    height: 48px;
+    bottom: 6px;
+    right: 5px;
+    border: 4px solid #4d6cff;
+}
